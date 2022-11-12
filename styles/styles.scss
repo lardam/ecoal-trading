@@ -91,8 +91,8 @@ body{
     }
     footer{
         padding: 35px 2rem;
-        border-top: 2px solid $yellow;
-        background-color: $green;
+        border-top: 2px solid $white;
+        background-color: $yellow;
         color: $white;
         #footer-contact-container{
             margin-bottom: 2rem;
@@ -102,7 +102,7 @@ body{
             #contact-title{
                 font-size: 1rem;
                 margin-bottom: 1rem;
-                border-left: 5px solid $yellow;
+                border-left: 5px solid $green;
                 padding-left: 8px;
                 font-weight: 800;
                 text-transform: uppercase;
@@ -164,7 +164,27 @@ body{
             }
         }
         footer{
-            border-top: 1px solid $yellow;
+            margin-top: -100px;
+            padding-top: 105px;
+            border: none;
         }
     }
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        header{
+            padding: 0 4rem;
+        }
+        main{
+            .section-container{
+                .section-content{
+                    padding: 0 4rem;
+                }
+            }
+        }
+        footer{
+            padding: 105px 4rem 35px;
+        }
+    }    
 }
