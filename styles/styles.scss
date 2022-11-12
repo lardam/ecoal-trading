@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+$green: #303E48;
+$white: #f2f2f2;
+$yellow: #D8A57B;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: $white;
+}
+
+body{
+    header{
+        height: 8rem;
+        width: 100vw;
+        padding: 0 2rem;
+        border-bottom: 1px solid $yellow;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        background-color: $green;
+        a{
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: $white;
+        }
+    }
+    main{
+        padding-top: 8rem;
+        .section-container{
+            padding: 50px 0;
+            .section-content{
+                padding: 0 2rem;
+                .section-title{
+                    margin-bottom: 1.3rem;
+                    padding-left: 8px;
+                    border-left: 5px solid #000;
+                    font-size: 1.3rem;
+                    font-weight: 800;
+                    text-transform: uppercase;
+                }
+                .section-text, .section-list{
+                    font-size: 1.1rem;
+                    font-weight: 500;
+                    line-height: 2.2rem;
+                }
+                .section-list{
+                    padding-left: 1rem;
+                    li{
+                        margin-top: 0.55rem;
+                        &::marker{
+                            color: $yellow;
+                        }
+                    }
+                }
+            }
+        }
+        #about-us{
+            background-color: $yellow;
+            #about-text-content-top{
+                #about-title{
+                    border-left: 5px solid $green;
+                }
+            }
+        }
+        #why-us{
+            background-color: $green;
+            #why-us-text-content-top{
+                #about-title{
+                    border-left: 5px solid $yellow;
+                }
+            }
+        }
+        .img-container{
+            width: 100%;
+            height: 200px;
+            margin: 37.5px 0;
+            position: relative;
+        }
+        #middle-img-container, #bottom-img-container{
+            margin: 0;
+        }
+    }
+    footer{
+        padding: 35px 2rem;
+        border-top: 2px solid $yellow;
+        background-color: $green;
+        color: $white;
+        #footer-contact-container{
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            #contact-title{
+                font-size: 1rem;
+                margin-bottom: 1rem;
+                border-left: 5px solid $yellow;
+                padding-left: 8px;
+                font-weight: 800;
+                text-transform: uppercase;
+            }
+            #contact-list{
+                height: 5rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                list-style: none;
+                a{
+                  font-size: 0.8rem;
+                  text-decoration: none;
+                }
+            }
+        }
+        #footer-copyright{
+          display: flex;
+          align-items: center;
+          p{
+              font-size: 0.5rem;
+          }
+        }
+    }
+}
+
+@media screen and (min-width: 425px) {
+    body{
+        main{
+            display: grid;
+            background-color: $green;
+            #about-us{
+                #about-text-content-btm{
+                    margin-bottom: 18.75px;
+                }
+            }
+            .section-container{
+                display: grid;
+                .img-container{
+                    width: 80%;
+                    max-width: 370px;
+                    height: 250px;
+                    border: 1px solid $white;
+                    justify-self: center;
+                }
+            }
+            .img-container{
+                width: 80%;
+                max-width: 370px;
+                height: 250px;
+                border: 1px solid $white;
+                justify-self: center;
+            }
+            #middle-img-container{
+                margin-top: -37.5px;
+            }
+            #bottom-img-container{
+                margin-bottom: 37.5px;
+            }
+        }
+        footer{
+            border-top: 1px solid $yellow;
+        }
+    }
+}
