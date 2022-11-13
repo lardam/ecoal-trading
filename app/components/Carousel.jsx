@@ -47,6 +47,22 @@ export function Carousel(){
             <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
             <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
             <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
+            <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
+            <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
+            <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
+            <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
+            <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
+            <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
+            <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
+            <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
+            <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
+            <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
+            <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
+            <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
+            <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
+            <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
+            <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
+            <div className='logo-carousel-img'><Image src={logo} alt='logo' fill/></div>
         </div>
         </>
     )
