@@ -1,5 +1,7 @@
+'use client'
 import Image from 'next/image'
 import { Header, Footer } from '/app/components/Header'
+import { Carousel } from '/app/components/Carousel'
 import cowImg from '/public/assets/home-img-1.jpg'
 import fieldImg from '/public/assets/home-img-3.jpg'
 import wheatImg from '/public/assets/welcome-img-3.jpg'
@@ -54,6 +56,7 @@ export default function Home() {
                 <div id='bottom-img-container' className='img-container'>
                     <Image src={planeImg} alt='plane' fill/>
                 </div>
+                <Carousel id="carousel" />
             </main>
             <Footer />
         </>
