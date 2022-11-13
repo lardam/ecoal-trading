@@ -26,7 +26,7 @@ export function Footer(){
     return(
         <footer>
             <div id='footer-contact-container'>
-                <h5 id='contact-title'>contacto</h5>
+                <h3 id='contact-title'>contacto</h3>
                 <ul id='contact-list'>
                     <li><a href='mailto:gerencia@ecoaltrading.es'>gerencia@ecoaltrading.es</a></li>
                     <li><a href="mailto:ventas@ecoaltrading.es">ventas@ecoaltrading.es</a></li>
