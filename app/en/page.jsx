@@ -1,10 +1,13 @@
+'use client'
 import Image from 'next/image'
 import { HeaderEn, FooterEn } from "../components/Header"
+import { Carousel } from '/app/components/Carousel'
 import cowImg from '/public/assets/home-img-1.jpg'
 import fieldImg from '/public/assets/home-img-3.jpg'
 import wheatImg from '/public/assets/welcome-img-3.jpg'
 import planeImg from '/public/assets/plane.jpeg'
-
+import porkiesImg from '/public/assets/porkies.jpg'
+import guyImg from '/public/assets/guy-in-a-field.jpg'
 
 export default function English() {
     return(
@@ -19,7 +22,7 @@ export default function English() {
                         </p>
                     </div>
                     <div id='about-img-container' className='img-container'>
-                        <Image src={cowImg} alt='asd' fill priority/>
+                        <Image src={cowImg} alt='Cow' fill priority/>
                     </div>
                     <div id='about-text-content-btm' className='section-content'>
                         <p className='section-text'>
@@ -28,7 +31,18 @@ export default function English() {
                     </div>
                 </div>
                 <div id='middle-img-container' className='img-container'>
-                    <Image src={fieldImg} alt='asd' fill />
+                    <Image src={fieldImg} id='middle-img' alt='Field' fill />
+                    <div id='middle-carousel'>
+                        <div className='mid-carousel-img'>
+                            <Image src={porkiesImg} alt='Some porks' fill />
+                        </div>
+                        <div className='mid-carousel-img'>
+                            <Image src={guyImg} alt='Guy on a field' fill />
+                        </div>
+                        <div className='mid-carousel-img'>
+                            <Image src={fieldImg} alt='Field' fill />
+                        </div>
+                    </div>
                 </div>
                 <div id='why-us' className='section-container'>
                     <div id='why-us-text-content-top' className='section-content'>
@@ -39,7 +53,7 @@ export default function English() {
                         </ul>
                     </div>
                     <div id='list-img-container' className='img-container'>
-                        <Image src={wheatImg} alt='asd' fill />
+                        <Image src={wheatImg} alt='Field' fill />
                     </div>
                     <div id='why-us-text-content-btm' className='section-content'>
                         <ul className='section-list'>
@@ -50,8 +64,9 @@ export default function English() {
                     </div>
                 </div>
                 <div id='bottom-img-container' className='img-container'>
-                    <Image src={planeImg} alt='plane' fill/>
+                    <Image src={planeImg} alt='Plane' fill/>
                 </div>
+                <Carousel id="carousel" />
             </main>
             <FooterEn />
         </>
