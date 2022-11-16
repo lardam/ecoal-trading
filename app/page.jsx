@@ -5,7 +5,7 @@ import { Carousel } from '/app/components/Carousel'
 import { ImgCarousel } from './components/ImgCarousel'
 import fieldImg from '/public/assets/home-img-3.jpg'
 import wheatImg from '/public/assets/welcome-img-3.jpg'
-import planeImg from '/public/assets/plane.jpeg'
+import containersShip from '/public/assets/containers-on-ship.jpg'
 import porkiesImg from '/public/assets/porkies.jpg'
 import guyImg from '/public/assets/guy-in-a-field.jpg'
 
@@ -65,9 +65,9 @@ export default function Home() {
                     </div>
                 </div>
                 <div id='bottom-img-container' className='img-container'>
-                    <Image src={planeImg} alt='Avión' fill/>
+                    <Image src={containersShip} alt='Contenedores en barco' fill/>
                 </div>
-                <Carousel id="carousel" />
+                <Carousel id="carousel" img1="Cosecha" img2="Campo" img3="Contenedores en barco" img4="Campo" />
             </main>
             <Footer />
         </>
