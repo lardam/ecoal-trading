@@ -35,13 +35,13 @@ export default function Home() {
                     <Image src={fieldImg} id='middle-img' alt='Campo' fill />
                     <div id='middle-carousel'>
                         <div className='mid-carousel-img'>
-                            <Image src={porkiesImg} alt='Puercos' fill />
-                        </div>
-                        <div className='mid-carousel-img'>
                             <Image src={guyImg} alt='Hombre en campo' fill />
                         </div>
                         <div className='mid-carousel-img'>
                             <Image src={fieldImg} alt='Campo' fill />
+                        </div>
+                        <div className='mid-carousel-img'>
+                            <Image src={porkiesImg} alt='Puercos' fill />
                         </div>
                     </div>
                 </div>

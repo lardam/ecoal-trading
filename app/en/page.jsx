@@ -32,13 +32,13 @@ export default function English() {
                     <Image src={fieldImg} id='middle-img' alt='Field' fill />
                     <div id='middle-carousel'>
                         <div className='mid-carousel-img'>
-                            <Image src={porkiesImg} alt='Some porks' fill />
-                        </div>
-                        <div className='mid-carousel-img'>
                             <Image src={guyImg} alt='Guy on a field' fill />
                         </div>
                         <div className='mid-carousel-img'>
                             <Image src={fieldImg} alt='Field' fill />
+                        </div>
+                        <div className='mid-carousel-img'>
+                            <Image src={porkiesImg} alt='Some porks' fill />
                         </div>
                     </div>
                 </div>
