@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import { Header, Footer } from '/app/components/Header'
 import { Carousel } from '/app/components/Carousel'
-import cowImg from '/public/assets/home-img-1.jpg'
+import { ImgCarousel } from './components/ImgCarousel'
 import fieldImg from '/public/assets/home-img-3.jpg'
 import wheatImg from '/public/assets/welcome-img-3.jpg'
 import planeImg from '/public/assets/plane.jpeg'
@@ -23,9 +23,7 @@ export default function Home() {
                         y servicios entre diferentes empresas a nivel global. 
                         </p>
                     </div>
-                    <div id='about-img-container' className='img-container'>
-                        <Image src={cowImg} alt='Vaca' fill/>
-                    </div>
+                    <ImgCarousel container="Contenedores" grapes="Uvas" steel="Trabajador metalúrgico" computers="Trabajadores en oficinas" />
                     <div id='about-text-content-btm' className='section-content'>
                         <p className='section-text'>
                         Nuestra experiencia nos ha permitido trabajar con empresas 

@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import { HeaderEn, FooterEn } from "../components/Header"
 import { Carousel } from '/app/components/Carousel'
-import cowImg from '/public/assets/home-img-1.jpg'
+import { ImgCarousel } from '../components/ImgCarousel'
 import fieldImg from '/public/assets/home-img-3.jpg'
 import wheatImg from '/public/assets/welcome-img-3.jpg'
 import planeImg from '/public/assets/plane.jpeg'
@@ -21,9 +21,7 @@ export default function English() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sapiente quos veritatis rerum ducimus temporibus dolor, ab, inventore atque quisquam neque nostrum beatae? Recusandae, aperiam.
                         </p>
                     </div>
-                    <div id='about-img-container' className='img-container'>
-                        <Image src={cowImg} alt='Cow' fill priority/>
-                    </div>
+                    <ImgCarousel container="Containers" grapes="Grapes" steel="Steel worker" computer="Office workers" />
                     <div id='about-text-content-btm' className='section-content'>
                         <p className='section-text'>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni cum possimus amet.

@@ -73,6 +73,18 @@ body{
                     border-left: 5px solid $white;
                 }
             }
+            #about-img-container{
+                height: 240px;
+                max-width: 370px;
+                overflow: hidden;
+                display: flex;
+                .carousel-img-container{
+                    height: 100%;
+                    min-width: 100%;
+                    position: relative;
+                    animation: main-img-carousel 12s infinite;
+                }
+            }
             .section-content{
                 .section-title, .section-text{
                     color: $green;
@@ -276,8 +288,9 @@ body{
                 grid-template-rows: 58% 42%;
                 grid-gap: 2rem 0;
                 #about-img-container{
-                    height: 400px;
+                    height: 350px;
                     width: 100%;
+                    max-width: 500px;
                     margin: 0 8rem 0 0;
                     grid-column: 2 / 3;
                     grid-row: 1 / 3;
@@ -380,6 +393,7 @@ body{
         main{
             #about-us #about-img-container{
                 margin: 0 16rem 0 0;
+                max-width: 540px;
             }
             #why-us{
                 .section-content{
@@ -422,5 +436,35 @@ body{
     }
     100%{
         transform: translateX(66px);
+    }
+}
+
+@keyframes main-img-carousel {
+    0%{
+        transform: translateX(0%);
+    }
+    22%{
+        transform: translateX(0%);
+    }
+    25%{
+        transform: translateX(-100%);
+    }
+    46%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-200%);
+    }
+    72%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-300%);
+    }
+    96%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-400%);
     }
 }
