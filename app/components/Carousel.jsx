@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import CarouselImg1 from '/public/assets/commod-1.jpg'
-import CarouselImg2 from '/public/assets/home-img-2.jpg'
+import CarouselImg2 from '/public/assets/grapes.jpg'
 import CarouselImg3 from '/public/assets/containers-on-ship.jpg'
 import CarouselImg4 from '/public/assets/welcome-img-2.jpg'
 import logo from '/public/assets/logo_1.png'

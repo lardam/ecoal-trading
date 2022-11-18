@@ -18,14 +18,12 @@ export default function English() {
                     <div id='about-text-content-top' className='section-content'>
                         <h2 id='about-title' className='section-title'>about us</h2>
                         <p className='section-text'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sapiente quos veritatis rerum ducimus temporibus dolor, ab, inventore atque quisquam neque nostrum beatae? Recusandae, aperiam.
-                        </p>
+                        Ecoal Trading is a spanish company that  facilitates the trading and distribution of goods and services between different companies.                        </p>
                     </div>
                     <ImgCarousel container="Containers" grapes="Grapes" steel="Steel worker" computer="Office workers" />
                     <div id='about-text-content-btm' className='section-content'>
                         <p className='section-text'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni cum possimus amet.
-                        </p>
+                        Our experience is extensive. We have worked with companies from various sectors and in different parts of the world.                        </p>
                     </div>
                 </div>
                 <div id='middle-img-container' className='img-container'>
@@ -44,10 +42,10 @@ export default function English() {
                 </div>
                 <div id='why-us' className='section-container'>
                     <div id='why-us-text-content-top' className='section-content'>
-                        <h2 id='about-title' className='section-title'>¿why ecoal trading?</h2>
+                        <h2 id='about-title' className='section-title'>why ecoal trading?</h2>
                         <ul className='section-list'>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, accusamus adipisci fugiat placeat vel reprehenderit.</li>
-                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, accusamus adipisci fugiat placeat vel reprehenderit.</li>
+                            <li>A way of working based on honesty, transparency and professionalism.</li>
+                            <li>A wide network of contacts in different sectors of the economy.</li>
                         </ul>
                     </div>
                     <div id='list-img-container' className='img-container'>
@@ -55,9 +53,9 @@ export default function English() {
                     </div>
                     <div id='why-us-text-content-btm' className='section-content'>
                         <ul className='section-list'>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatem temporibus cupiditate.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatem temporibus cupiditate.</li>
-                            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis voluptatem temporibus cupiditate.</li>
+                            <li>We work directly with companies that are manufacturers of the best products and at the best price.</li>
+                            <li>Getting the best conditions to meet the needs of our clients.</li>
+                            <li>Control and monitoring of the total sales process with attention, agility and proposing solutions.</li>
                         </ul>
                     </div>
                 </div>

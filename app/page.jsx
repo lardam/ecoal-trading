@@ -27,7 +27,7 @@ export default function Home() {
                     <div id='about-text-content-btm' className='section-content'>
                         <p className='section-text'>
                         Nuestra experiencia nos ha permitido trabajar con empresas 
-                        de diferentes sectores  y en diferentes puntos del mundo. 
+                        de distintos sectores  y en diferentes puntos del mundo. 
                         </p>
                     </div>
                 </div>

@@ -2,7 +2,7 @@ import Image from "next/image"
 import containers from "/public/assets/container.jpg"
 import steel from "/public/assets/steel.jpg"
 import computers from "/public/assets/computers.jpg"
-import grapes from "/public/assets/grapes.jpg"
+import grapes from "/public/assets/home-img-2.jpg"
 
 export function ImgCarousel(props){
     return(
