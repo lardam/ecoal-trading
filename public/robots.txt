@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ecoal.vercel.app
+
+# Sitemaps
+Sitemap: https://ecoal.vercel.app/sitemap.xml
