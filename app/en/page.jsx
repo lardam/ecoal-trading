@@ -3,11 +3,11 @@ import Image from 'next/image'
 import { HeaderEn, FooterEn } from "../components/Header"
 import { Carousel } from '/app/components/Carousel'
 import { ImgCarousel } from '../components/ImgCarousel'
-import fieldImg from '/public/assets/home-img-3.jpg'
 import wheatImg from '/public/assets/welcome-img-3.jpg'
 import containersShip from '/public/assets/containers-on-ship.jpg'
-import porkiesImg from '/public/assets/porkies.jpg'
-import guyImg from '/public/assets/guy-in-a-field.jpg'
+import darkPortImg from '/public/assets/port-1.jpg'
+import portImg from '/public/assets/port-2.jpg'
+import esPortImg from '/public/assets/port-3.jpg'
 
 export default function English() {
     return(
@@ -27,16 +27,16 @@ export default function English() {
                     </div>
                 </div>
                 <div id='middle-img-container' className='img-container'>
-                    <Image src={fieldImg} id='middle-img' alt='Field' fill />
+                    <Image src={portImg} id='middle-img' alt='Port' fill />
                     <div id='middle-carousel'>
                         <div className='mid-carousel-img'>
-                            <Image src={guyImg} alt='Guy on a field' fill />
+                            <Image src={portImg} alt='Port' fill />
                         </div>
                         <div className='mid-carousel-img'>
-                            <Image src={fieldImg} alt='Field' fill />
+                            <Image src={esPortImg} alt='Port in Barcelona' fill />
                         </div>
                         <div className='mid-carousel-img'>
-                            <Image src={porkiesImg} alt='Some porks' fill />
+                            <Image src={darkPortImg} alt='Port' fill />
                         </div>
                     </div>
                 </div>
