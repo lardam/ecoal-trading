@@ -3,11 +3,11 @@ import Image from 'next/image'
 import { Header, Footer } from '/app/components/Header'
 import { Carousel } from '/app/components/Carousel'
 import { ImgCarousel } from './components/ImgCarousel'
-import fieldImg from '/public/assets/home-img-3.jpg'
+import fieldImg from '/public/assets/port-2.jpg'
 import wheatImg from '/public/assets/welcome-img-3.jpg'
 import containersShip from '/public/assets/containers-on-ship.jpg'
-import porkiesImg from '/public/assets/porkies.jpg'
-import guyImg from '/public/assets/guy-in-a-field.jpg'
+import porkiesImg from '/public/assets/port-3.jpg'
+import guyImg from '/public/assets/port-1.jpg'
 
 export default function Home() {
     return(
