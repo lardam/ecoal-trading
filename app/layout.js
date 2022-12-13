@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
-        <meta name="google-site-verification" content="X4ndxqPZR4vVE6vagFmVlPI1Ln965c4QSybU56O6Ngo" />
+        <meta name="google-site-verification" content="wnxkS8n84ZyW1bqGqCdoKaALLZdY4qLV9TXepD_PnOI" />
         <meta name="description" content="ECOAL Trading, empresa dedicada a facilitar el intercambio y distribución de bienes" />
         <meta name="keywords" content="ECOAL Trading, ECOAL, Trading, comercio, intercambio, bienes, confiable" />
       </head>
