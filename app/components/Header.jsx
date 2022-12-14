@@ -31,7 +31,6 @@ export function Footer(){
                     <li><a href='mailto:gerencia@ecoaltrading.es'>gerencia@ecoaltrading.es</a></li>
                     <li><a href="mailto:ventas@ecoaltrading.es">ventas@ecoaltrading.es</a></li>
                     <li><a href="tel:34658202579">+(34) 658 202 579</a></li>
-                    <li><a href="tel:34644057707">+(34) 644 057 707</a></li>
                 </ul>
             </div>
             <div id='footer-copyright'>
